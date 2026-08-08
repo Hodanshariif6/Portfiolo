@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/portfolio/',
   server: {
     watch: {
       ignored: ['**/*.mp4', '**/*.mov', '**/*.avi', '**/*.mkv', '**/*.webm'],
